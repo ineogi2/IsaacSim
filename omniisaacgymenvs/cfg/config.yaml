@@ -5,6 +5,7 @@ experiment: ''
 
 # if set to positive integer, overrides the default number of environments
 num_envs: ''
+minibatch_size: ''
 
 # seed - set to -1 to choose random seed
 seed: 42

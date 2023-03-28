@@ -308,7 +308,8 @@ train:
         print_stats: true
 task_name: ${task.name}
 experiment: ''
-num_envs: 1000
+num_envs: 100
+minibatch_size: ''
 seed: 42
 torch_deterministic: false
 max_iterations: ''

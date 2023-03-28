@@ -2,7 +2,7 @@ task:
   name: AllegroHand
   physics_engine: ${..physics_engine}
   env:
-    numEnvs: 10
+    numEnvs: ${resolve_default:8192,${...num_envs}}
     envSpacing: 0.75
     episodeLength: 600
     clipObservations: 5.0
@@ -159,7 +159,7 @@ train:
       truncate_grads: true
       e_clip: 0.2
       horizon_length: 16
-      minibatch_size: 32768
+      minibatch_size: 1600
       mini_epochs: 5
       critic_coef: 4
       clip_value: true
@@ -171,7 +171,8 @@ train:
         print_stats: true
 task_name: ${task.name}
 experiment: ''
-num_envs: ''
+num_envs: 100
+minibatch_size: ''
 seed: 42
 torch_deterministic: false
 max_iterations: ''
