@@ -1,0 +1,973 @@
+2023-04-20 18:08:46,709 INFO    MainThread:391640 [internal.py:wandb_internal():93] W&B internal server running at pid: 391640, started at: 2023-04-20 18:08:46.708921
+2023-04-20 18:08:46,710 INFO    WriterThread:391640 [datastore.py:open_for_write():75] open: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/run-2rqvgb60.wandb
+2023-04-20 18:08:46,713 DEBUG   SenderThread:391640 [sender.py:send():236] send: header
+2023-04-20 18:08:46,713 DEBUG   SenderThread:391640 [sender.py:send():236] send: run
+2023-04-20 18:08:46,715 INFO    SenderThread:391640 [sender.py:_maybe_setup_resume():494] checking resume status for ineogi2/[torch] IsaacGym/2rqvgb60
+2023-04-20 18:08:47,271 INFO    SenderThread:391640 [dir_watcher.py:__init__():216] watching files in: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files
+2023-04-20 18:08:47,271 INFO    SenderThread:391640 [sender.py:_start_run_threads():818] run started: 2rqvgb60 with start time 1681981726
+2023-04-20 18:08:47,272 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:08:47,273 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:08:47,278 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: check_version
+2023-04-20 18:08:47,279 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: check_version
+2023-04-20 18:08:47,344 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: run_start
+2023-04-20 18:08:47,352 DEBUG   HandlerThread:391640 [meta.py:__init__():35] meta init
+2023-04-20 18:08:47,353 DEBUG   HandlerThread:391640 [meta.py:__init__():49] meta init done
+2023-04-20 18:08:47,353 DEBUG   HandlerThread:391640 [meta.py:probe():209] probe
+2023-04-20 18:08:47,369 DEBUG   HandlerThread:391640 [meta.py:_setup_git():199] setup git
+2023-04-20 18:08:47,395 DEBUG   HandlerThread:391640 [meta.py:_setup_git():206] setup git done
+2023-04-20 18:08:47,395 DEBUG   HandlerThread:391640 [meta.py:_save_pip():53] save pip
+2023-04-20 18:08:47,396 DEBUG   HandlerThread:391640 [meta.py:_save_pip():67] save pip done
+2023-04-20 18:08:47,396 DEBUG   HandlerThread:391640 [meta.py:probe():247] probe done
+2023-04-20 18:08:47,482 DEBUG   SenderThread:391640 [sender.py:send():236] send: files
+2023-04-20 18:08:47,483 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-20 18:08:47,490 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:08:47,490 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:08:47,735 DEBUG   SenderThread:391640 [sender.py:send():236] send: telemetry
+2023-04-20 18:08:48,189 INFO    Thread-11 :391640 [upload_job.py:push():138] Uploaded file /tmp/tmpmbkgtoujwandb/neef6zdf-wandb-metadata.json
+2023-04-20 18:08:48,272 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_created():269] file/dir created: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/requirements.txt
+2023-04-20 18:08:48,272 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_created():269] file/dir created: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-metadata.json
+2023-04-20 18:08:48,272 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_created():269] file/dir created: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:08:48,272 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_created():269] file/dir created: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:08:50,271 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:08:54,272 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:08:58,274 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:00,274 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:02,736 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:09:02,736 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:09:03,314 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:09:03,315 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:09:03,315 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:09:03,322 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:09:04,276 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:09:06,276 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:14,279 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:14,297 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:09:14,298 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:09:14,298 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:09:14,300 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:09:15,279 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:09:15,661 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:09:16,279 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:17,996 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:09:17,996 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:09:18,280 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/config.yaml
+2023-04-20 18:09:24,282 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:25,106 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:09:25,107 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:09:25,107 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:09:25,108 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:09:25,282 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:09:28,283 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:33,244 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:09:33,245 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:09:34,285 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:35,537 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:09:35,538 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:09:35,538 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:09:35,539 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:09:36,286 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:09:38,287 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:45,956 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:09:46,079 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:09:46,080 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:09:46,080 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:09:46,081 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:09:46,289 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:09:48,290 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:09:48,478 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:09:48,478 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:09:55,885 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:09:55,886 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:09:55,887 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:09:55,887 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:09:56,292 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:09:58,293 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:03,724 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:10:03,725 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:10:06,077 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:10:06,078 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:10:06,079 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:10:06,079 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:10:06,296 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:10:08,297 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:16,089 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:10:16,089 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:10:16,090 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:10:16,090 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:10:16,231 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:10:16,299 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:10:18,300 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:18,974 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:10:18,974 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:10:22,301 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:26,056 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:10:26,057 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:10:26,057 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:10:26,057 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:10:26,303 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:26,303 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:10:28,303 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:34,196 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:10:34,196 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:10:36,072 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:10:36,073 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:10:36,073 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:10:36,074 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:10:36,306 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:10:38,307 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:45,989 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:10:45,990 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:10:45,990 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:10:45,990 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:10:46,309 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:46,310 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:10:46,514 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:10:48,310 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:49,429 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:10:49,429 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:10:54,312 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:10:55,815 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:10:55,816 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:10:55,816 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:10:55,817 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:10:56,312 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:10:58,313 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:04,654 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:11:04,654 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:11:05,912 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:11:05,914 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:11:05,914 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:11:05,914 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:11:06,316 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:11:08,316 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:12,318 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:15,804 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:11:15,805 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:11:15,805 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:11:15,806 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:11:16,319 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:11:16,795 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:11:18,319 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:19,894 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:11:19,894 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:11:24,321 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:25,824 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:11:25,825 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:11:25,825 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:11:25,825 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:11:26,322 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:11:28,322 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:35,146 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:11:35,146 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:11:36,019 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:11:36,020 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:11:36,021 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:11:36,021 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:11:36,325 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:11:38,325 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:45,831 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:11:45,832 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:11:45,833 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:11:45,833 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:11:46,328 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:11:47,079 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:11:48,329 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:50,329 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:11:50,379 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:11:50,379 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:11:55,656 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:11:55,657 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:11:55,657 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:11:55,657 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:11:56,331 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:11:58,332 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:05,619 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:12:05,619 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:12:05,619 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:12:05,620 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:12:05,625 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:12:05,626 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:12:06,334 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:12:08,335 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:15,630 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:12:15,630 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:12:15,631 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:12:15,631 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:12:16,337 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:12:17,358 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:12:18,338 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:20,870 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:12:20,871 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:12:25,554 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:12:25,555 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:12:25,555 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:12:25,556 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:12:26,341 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:12:28,341 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:35,372 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:12:35,373 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:12:35,373 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:12:35,374 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:12:36,103 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:12:36,103 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:12:36,344 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:12:38,345 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:44,347 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:45,171 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:12:45,172 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:12:45,173 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:12:45,173 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:12:45,347 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:12:46,347 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:47,648 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:12:48,348 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:12:51,349 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:12:51,349 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:12:55,579 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:12:55,579 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:12:55,579 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:12:55,580 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:12:56,350 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:12:58,351 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:05,990 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:13:05,991 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:13:05,994 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:13:05,994 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:13:06,354 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:13:06,585 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:13:06,585 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:13:08,354 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:16,206 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:13:16,207 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:13:16,207 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:13:16,208 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:13:16,357 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:13:17,933 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:13:18,357 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:21,830 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:13:21,830 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:13:26,830 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:13:26,834 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:13:26,834 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:13:26,834 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:13:27,360 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:13:28,360 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:34,362 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:36,363 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:37,054 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:13:37,054 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:13:38,933 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:13:38,934 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:13:38,934 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:13:38,939 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:13:39,364 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:13:40,364 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:13:48,226 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:13:49,668 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:13:49,669 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:13:49,669 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:13:49,670 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:13:50,368 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:13:52,293 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:13:52,293 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:13:52,368 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:14:02,151 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:14:02,151 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:14:02,152 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:14:02,152 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:14:02,371 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:14:04,372 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:14:07,547 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:14:07,547 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:14:13,814 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:14:13,815 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:14:13,816 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:14:13,823 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:14:14,375 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:14:16,376 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:14:18,525 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:14:22,792 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:14:22,792 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:14:25,203 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:14:25,204 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:14:25,204 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:14:25,205 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:14:25,379 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:14:26,379 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:14:36,653 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:14:36,654 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:14:36,654 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:14:36,654 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:14:37,382 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:14:38,028 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:14:38,028 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:14:38,382 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:14:48,359 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:14:48,360 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:14:48,361 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:14:48,367 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:14:48,386 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:14:48,816 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:14:50,386 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:14:53,254 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:14:53,254 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:14:59,957 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:14:59,958 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:14:59,958 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:14:59,959 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:15:00,390 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:15:02,390 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:04,391 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:08,488 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:15:08,488 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:15:11,560 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:15:11,561 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:15:11,561 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:15:11,561 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:15:12,394 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:15:14,395 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:19,111 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:15:22,510 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:15:22,511 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:15:22,511 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:15:22,512 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:15:23,398 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:15:23,715 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:15:23,715 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:15:24,398 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:33,237 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:15:33,238 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:15:33,239 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:15:33,239 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:15:33,401 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:15:34,401 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:38,960 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:15:38,960 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:15:42,404 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:43,473 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:15:43,474 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:15:43,475 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:15:43,475 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:15:44,404 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:44,405 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:15:49,390 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:15:53,988 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:15:53,988 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:15:53,989 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:15:53,989 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:15:54,210 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:15:54,210 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:15:54,408 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:15:54,408 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:15:56,409 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:04,260 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:16:04,261 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:16:04,261 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:16:04,262 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:16:04,411 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:16:06,412 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:09,454 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:16:09,454 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:16:14,289 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:16:14,290 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:16:14,291 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:16:14,291 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:16:14,414 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:16:16,415 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:19,662 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:16:24,691 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:16:24,691 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:16:25,216 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:16:25,216 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:16:25,217 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:16:25,217 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:16:25,418 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:16:26,418 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:35,686 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:16:35,687 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:16:35,687 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:16:35,687 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:16:36,421 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:16:38,422 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:39,914 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:16:39,914 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:16:45,838 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:16:45,839 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:16:45,839 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:16:45,840 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:16:46,424 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:16:48,425 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:49,939 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:16:52,426 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:16:55,163 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:16:55,163 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:16:56,173 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:16:56,173 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:16:56,174 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:16:56,174 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:16:56,428 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:16:58,428 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:00,429 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:04,430 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:06,405 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:17:06,406 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:17:06,406 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:17:06,406 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:17:06,431 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:17:08,431 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:10,407 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:17:10,407 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:17:14,433 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:16,250 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:17:16,251 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:17:16,251 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:17:16,251 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:17:16,434 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:17:18,435 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:20,217 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:17:25,850 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:17:25,850 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:17:26,102 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:17:26,103 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:17:26,103 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:17:26,103 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:17:26,437 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:17:28,438 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:32,439 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:36,555 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:17:36,556 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:17:36,557 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:17:36,557 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:17:37,440 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:17:38,441 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:41,087 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:17:41,087 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:17:47,101 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:17:47,102 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:17:47,102 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:17:47,102 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:17:47,443 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:17:48,444 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:17:50,505 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:17:56,324 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:17:56,324 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:17:57,283 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:17:57,284 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:17:57,284 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:17:57,285 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:17:57,446 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:17:58,447 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:07,576 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:18:07,577 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:18:07,577 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:18:07,578 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:18:08,450 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:08,450 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:18:11,560 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:18:11,560 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:18:14,452 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:17,696 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:18:17,697 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:18:17,697 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:18:17,698 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:18:18,453 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:18,453 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:18:20,454 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:20,789 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:18:26,805 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:18:26,805 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:18:27,714 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:18:27,714 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:18:27,715 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:18:27,715 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:18:28,456 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:28,456 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:18:37,939 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:18:37,940 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:18:37,941 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:18:37,941 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:18:38,459 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:18:40,460 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:42,051 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:18:42,051 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:18:42,461 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:47,391 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:18:47,391 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:18:47,392 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:18:47,392 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:18:47,462 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:18:48,462 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:18:51,069 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:18:56,852 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:18:56,853 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:18:56,853 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:18:56,854 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:18:57,282 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:18:57,283 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:18:57,465 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:18:58,465 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:07,323 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:19:07,324 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:19:07,325 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:19:07,325 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:19:07,468 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:19:08,468 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:12,538 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:19:12,538 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:19:16,471 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:17,102 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:19:17,103 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:19:17,103 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:19:17,104 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:19:17,471 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:19:18,471 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:21,346 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:19:26,713 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:19:26,714 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:19:26,714 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:19:26,715 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:19:27,474 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:19:27,782 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:19:27,782 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:19:28,474 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:37,415 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:19:37,416 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:19:37,416 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:19:37,416 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:19:37,477 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:19:38,477 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:43,018 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:19:43,018 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:19:47,519 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:19:47,520 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:19:47,521 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:19:47,521 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:19:48,480 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:48,481 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:19:51,636 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:19:57,921 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:19:57,922 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:19:57,923 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:19:57,923 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:19:58,247 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:19:58,247 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:19:58,483 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:19:58,484 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:00,484 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:02,485 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:07,719 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:20:07,719 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:20:07,720 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:20:07,720 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:20:08,487 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:08,487 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:12,488 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:13,478 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:20:13,479 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:20:17,537 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:20:17,538 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:20:17,538 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:20:17,539 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:20:18,490 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:18,491 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:20,491 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:21,914 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:20:27,519 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:20:27,520 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:20:27,520 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:20:27,521 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:20:28,493 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:28,493 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:28,719 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:20:28,719 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:20:37,150 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:20:37,151 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:20:37,151 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:20:37,152 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:20:37,496 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:38,496 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:43,952 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:20:43,953 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:20:47,033 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:20:47,034 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:20:47,034 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:20:47,035 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:20:47,499 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:48,500 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:52,197 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:20:56,502 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:56,571 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:20:56,572 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:20:56,572 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:20:56,573 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:20:57,502 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:20:58,503 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:20:59,178 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:20:59,178 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:21:06,233 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:21:06,234 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:21:06,234 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:21:06,234 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:21:06,505 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:06,505 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:21:08,506 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:14,413 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:21:14,414 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:21:14,507 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:15,998 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:21:15,998 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:21:15,999 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:21:15,999 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:21:16,508 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:21:18,509 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:22,482 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:21:25,850 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:21:25,851 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:21:25,851 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:21:25,852 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:21:26,511 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:26,512 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:21:29,658 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:21:29,659 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:21:35,986 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:21:35,986 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:21:35,987 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:21:35,987 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:21:36,515 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:36,515 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:21:40,516 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:44,914 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:21:44,915 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:21:46,239 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:21:46,241 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:21:46,241 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:21:46,241 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:21:46,518 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:21:48,518 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:52,766 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:21:55,978 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:21:55,979 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:21:55,980 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:21:55,980 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:21:56,521 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:21:56,521 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:00,157 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:22:00,158 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:22:05,953 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:22:05,954 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:22:05,954 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:22:05,954 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:22:06,524 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:06,524 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:15,401 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:22:15,402 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:22:15,630 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:22:15,639 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:22:15,639 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:22:15,640 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:22:16,526 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:16,527 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:22,528 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:23,049 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:22:24,529 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:25,353 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:22:25,354 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:22:25,354 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:22:25,355 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:22:25,529 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:26,530 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:28,530 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:30,647 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:22:30,647 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:22:35,433 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:22:35,434 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:22:35,434 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:22:35,434 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:22:35,533 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:36,533 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:38,534 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:45,468 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:22:45,469 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:22:45,469 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:22:45,469 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:22:45,536 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:45,885 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:22:45,885 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:22:46,536 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:50,538 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:22:53,325 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:22:55,511 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:22:55,512 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:22:55,513 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:22:55,513 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:22:55,539 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:22:56,540 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:01,146 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:23:01,146 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:23:02,541 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:05,340 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:23:05,341 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:23:05,342 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:23:05,342 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:23:05,542 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:23:06,543 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:15,280 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:23:15,281 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:23:15,281 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:23:15,282 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:23:15,546 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:23:16,374 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:23:16,374 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:23:16,546 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:23,600 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:23:25,095 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:23:25,095 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:23:25,096 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:23:25,096 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:23:25,549 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:23:26,549 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:28,550 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:30,550 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:31,608 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:23:31,608 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:23:34,905 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:23:34,906 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:23:34,906 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:23:34,906 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:23:35,552 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:23:36,552 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:44,854 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:23:44,855 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:23:44,855 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:23:44,855 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:23:45,555 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:23:46,555 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:23:46,836 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:23:46,836 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:23:53,888 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:23:54,692 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:23:54,693 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:23:54,693 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:23:54,694 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:23:55,558 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:23:56,558 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:02,066 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:24:02,067 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:24:04,561 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:04,705 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:24:04,707 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:24:04,707 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:24:04,707 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:24:05,561 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:24:06,561 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:14,538 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:24:14,539 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:24:14,539 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:24:14,540 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:24:14,564 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:24:16,564 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:17,309 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:24:17,309 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:24:24,160 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:24:24,385 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:24:24,385 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:24:24,386 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:24:24,386 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:24:24,567 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:24:26,567 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:32,544 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:24:32,545 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:24:34,118 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:24:34,118 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:24:34,119 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:24:34,119 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:24:34,570 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:34,570 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:24:43,961 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:24:43,962 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:24:43,962 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:24:43,963 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:24:44,573 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:44,573 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:24:47,768 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:24:47,768 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:24:50,575 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:52,575 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:53,848 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:24:53,849 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:24:53,850 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:24:53,850 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:24:54,444 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:24:54,576 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:24:54,576 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:03,010 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:25:03,010 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:25:03,843 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:25:03,844 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:25:03,845 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:25:03,845 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:25:04,579 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:25:04,579 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:13,609 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:25:13,610 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:25:13,610 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:25:13,610 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:25:14,582 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:25:14,582 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:18,246 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:25:18,247 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:25:23,475 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:25:23,475 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:25:23,475 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:25:23,476 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:25:23,585 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:24,585 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:25:24,724 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:25:33,473 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:25:33,474 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:25:33,483 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:25:33,701 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:25:33,701 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:25:33,702 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:25:34,588 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:25:34,589 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:43,666 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:25:43,667 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:25:43,667 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:25:43,667 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:25:44,591 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:25:44,591 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:48,702 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:25:48,702 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:25:53,422 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:25:53,423 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:25:53,424 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:25:53,424 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:25:53,594 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:25:54,594 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:25:55,002 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:26:03,174 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:26:03,175 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:26:03,175 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:26:03,176 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:26:03,597 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:26:03,933 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:26:03,933 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:26:04,597 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:26:12,900 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:26:12,900 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:26:12,901 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:26:12,901 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:26:13,600 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:26:15,600 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:26:19,181 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:26:19,181 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:26:22,799 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:26:22,800 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:26:22,800 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:26:22,800 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:26:23,602 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:26:25,275 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:26:25,603 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:26:32,660 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:26:32,660 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:26:32,661 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:26:32,661 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:26:33,606 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:26:34,405 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:26:34,406 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:26:35,607 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:26:42,529 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:26:42,530 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:26:42,530 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:26:42,531 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:26:42,609 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:26:45,610 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:26:49,660 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:26:49,660 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:26:52,864 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:26:52,865 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:26:52,866 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:26:52,866 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:26:53,613 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:26:55,570 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:26:55,613 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:03,075 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:27:03,076 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:27:03,076 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:27:03,077 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:27:03,616 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:27:04,918 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:27:04,918 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:27:05,617 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:13,035 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:27:13,035 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:27:13,035 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:27:13,036 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:27:13,619 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:27:15,619 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:20,173 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:27:20,174 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:27:23,197 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:27:23,198 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:27:23,199 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:27:23,199 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:27:23,622 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:27:25,622 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:25,855 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:27:32,885 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:27:32,886 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:27:32,886 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:27:32,887 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:27:33,624 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:27:35,416 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:27:35,417 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:27:35,625 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:42,525 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:27:42,525 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:27:42,526 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:27:42,526 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:27:42,627 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:27:45,628 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:50,657 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:27:50,658 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:27:52,503 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:27:52,504 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:27:52,505 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:27:52,505 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:27:52,631 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:27:53,631 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:55,632 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:27:56,145 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:28:02,193 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:28:02,194 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:28:02,195 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:28:02,195 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:28:02,634 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:28:03,634 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:05,910 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:28:05,910 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:28:07,635 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:11,637 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:12,279 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:28:12,280 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:28:12,280 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:28:12,281 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:28:12,637 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:28:13,637 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:19,639 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:21,169 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-20 18:28:21,170 DEBUG   SenderThread:391640 [sender.py:send_request():250] send_request: stop_status
+2023-04-20 18:28:22,186 DEBUG   HandlerThread:391640 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-20 18:28:22,186 DEBUG   SenderThread:391640 [sender.py:send():236] send: history
+2023-04-20 18:28:22,186 DEBUG   SenderThread:391640 [sender.py:send():236] send: summary
+2023-04-20 18:28:22,187 INFO    SenderThread:391640 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-20 18:28:22,640 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/wandb-summary.json
+2023-04-20 18:28:23,641 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:26,427 DEBUG   SenderThread:391640 [sender.py:send():236] send: stats
+2023-04-20 18:28:31,643 INFO    Thread-7  :391640 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/files/output.log
+2023-04-20 18:28:31,937 WARNING MainThread:391640 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-20 18:28:32,728 WARNING MainThread:391640 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-04-20 18:28:32,734 ERROR   MainThread:391640 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-04-20 18:28:32,746 INFO    WriterThread:391640 [datastore.py:close():279] close: /home/kwon/rl_ws/isaac/outputs/Ant/SAC/0420/wandb/run-20230420_180845-2rqvgb60/run-2rqvgb60.wandb
+2023-04-20 18:28:32,962 INFO    MainThread:391640 [internal.py:handle_exit():80] Internal process exited

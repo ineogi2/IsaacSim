@@ -4,7 +4,7 @@ task_name: ${task.name}
 experiment: ''
 
 # if set to positive integer, overrides the default number of environments
-num_envs: ''
+num_envs: 1
 minibatch_size: ''
 
 # seed - set to -1 to choose random seed
@@ -38,28 +38,48 @@ test: False
 # used to set checkpoint path
 checkpoint: ''
 
+
 # disables rendering
-headless: False
+render: False
+headless: ''
 # enables native livestream
 enable_livestream: False
 # timeout for MT script
 mt_timeout: 30
 
-wandb_activate: False
-wandb_group: ''
-wandb_name: ''
-wandb_entity: 'ineogi2'
-wandb_project: 'omniisaacgymenvs'
-
 # set default task and default training config based on task
 defaults:
-  - task: Cartpole
+  - task: Ant
   - train: ${task}PPO
   - hydra/job_logging: disabled
 
-# set the directory where the output files get saved
-hydra:
-  output_subdir: null
-  run:
-    dir: .
 
+#----------------------------------
+#------------- for SAC -------------
+algorithm: SAC
+model_num: ${now:%m%d}
+
+model:
+  hidden_sizes: [256, 256]
+  buffer_size: 1.0e+6
+  alpha: 0.2
+
+training:
+  epochs: 3000
+  max_steps: 1000
+  learning_rate: 0.0001
+  gamma: 0.99
+  batch_size: 2048
+  save_frequency: 3
+  save_dir: /home/kwon/rl_ws/isaac/outputs/${task_name}/${algorithm}/${model_num}
+
+# data plot
+wandb: False
+board: False
+
+# Run/sweep directories
+hydra:
+  run:
+    dir: ./outputs/${task_name}/${algorithm}/${model_num}
+  sweep:
+    dir: ./outputs/sweeper_${task_name}/${algorithm}/${model_num}

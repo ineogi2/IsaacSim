@@ -1,0 +1,365 @@
+-----------------
+----Main Loop----
+[2023-04-20 18:08:47] Running RL reset
+main.py:84: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:230.)
+  next_state, reward, terminal, _ = env.step(torch.tensor([action], dtype=torch.float))
+/home/kwon/rl_ws/isaac/utils.py:19: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  self.buffer.append([torch.tensor(state.reshape(1, -1), dtype=torch.float),
+/home/kwon/rl_ws/isaac/utils.py:22: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  torch.tensor(next_state.reshape(1, -1), dtype=torch.float),
+[2023-04-20 18:08:55] Running RL reset
+[2023-04-20 18:08:58] Running RL reset
+{'metrics/score': tensor([-83.9594], device='cuda:0'), 'metrics/Q_value': -0.2931925356388092, 'loss/Q_1': 1.731187105178833, 'loss/Q_2': 1.8781758546829224, 'loss/policy': -0.3011849522590637, 'loss/alpha': -17.658573150634766}
+[2023-04-20 18:09:03] Running RL reset
+[2023-04-20 18:09:12] Running RL reset
+{'metrics/score': tensor([-368.5715], device='cuda:0'), 'metrics/Q_value': -0.25029122829437256, 'loss/Q_1': 1.794822096824646, 'loss/Q_2': 1.96204674243927, 'loss/policy': -0.381792813539505, 'loss/alpha': -17.96363067626953}
+[2023-04-20 18:09:14] Running RL reset
+[2023-04-20 18:09:22] Running RL reset
+{'metrics/score': tensor([-463.9369], device='cuda:0'), 'metrics/Q_value': -0.2182932198047638, 'loss/Q_1': 1.5489141941070557, 'loss/Q_2': 1.7023109197616577, 'loss/policy': -0.4873514175415039, 'loss/alpha': -18.557401657104492}
+[2023-04-20 18:09:25] Running RL reset
+[2023-04-20 18:09:31] Running RL reset
+{'metrics/score': tensor([-241.3074], device='cuda:0'), 'metrics/Q_value': -0.19015777111053467, 'loss/Q_1': 1.536710500717163, 'loss/Q_2': 1.6582260131835938, 'loss/policy': -0.5612518191337585, 'loss/alpha': -18.92758560180664}
+[2023-04-20 18:09:35] Running RL reset
+[2023-04-20 18:09:46] Running RL reset
+{'metrics/score': tensor([-878.5105], device='cuda:0'), 'metrics/Q_value': -0.16910627484321594, 'loss/Q_1': 1.6210458278656006, 'loss/Q_2': 1.7205184698104858, 'loss/policy': -0.5881171226501465, 'loss/alpha': -18.976184844970703}
+[2023-04-20 18:09:46] Running RL reset
+[2023-04-20 18:09:55] Running RL reset
+{'metrics/score': tensor([-577.8109], device='cuda:0'), 'metrics/Q_value': -0.1502363681793213, 'loss/Q_1': 1.561692237854004, 'loss/Q_2': 1.6227656602859497, 'loss/policy': -0.6301407814025879, 'loss/alpha': -19.164453506469727}
+[2023-04-20 18:09:55] Running RL reset
+[2023-04-20 18:10:06] Running RL reset
+{'metrics/score': tensor([55.1617], device='cuda:0'), 'metrics/Q_value': -0.12569090723991394, 'loss/Q_1': 1.510122537612915, 'loss/Q_2': 1.6435928344726562, 'loss/policy': -0.7170200347900391, 'loss/alpha': -19.668384552001953}
+[2023-04-20 18:10:06] Running RL reset
+[2023-04-20 18:10:16] Running RL reset
+{'metrics/score': tensor([-480.5166], device='cuda:0'), 'metrics/Q_value': -0.11689777672290802, 'loss/Q_1': 1.4797430038452148, 'loss/Q_2': 1.5879602432250977, 'loss/policy': -0.7197915315628052, 'loss/alpha': -19.621784210205078}
+[2023-04-20 18:10:16] Running RL reset
+[2023-04-20 18:10:19] Running RL reset
+[2023-04-20 18:10:23] Running RL reset
+{'metrics/score': tensor([-98.6730], device='cuda:0'), 'metrics/Q_value': -0.08902879059314728, 'loss/Q_1': 1.4615230560302734, 'loss/Q_2': 1.58564293384552, 'loss/policy': -0.7763693332672119, 'loss/alpha': -19.85501480102539}
+[2023-04-20 18:10:26] Running RL reset
+[2023-04-20 18:10:36] Running RL reset
+{'metrics/score': tensor([-484.3494], device='cuda:0'), 'metrics/Q_value': -0.0657106265425682, 'loss/Q_1': 1.4395809173583984, 'loss/Q_2': 1.5259020328521729, 'loss/policy': -0.817380428314209, 'loss/alpha': -19.999549865722656}
+[2023-04-20 18:10:36] Running RL reset
+[2023-04-20 18:10:44] Running RL reset
+{'metrics/score': tensor([-192.0450], device='cuda:0'), 'metrics/Q_value': -0.04535390064120293, 'loss/Q_1': 1.3332802057266235, 'loss/Q_2': 1.4500384330749512, 'loss/policy': -0.8362258672714233, 'loss/alpha': -19.989341735839844}
+[2023-04-20 18:10:45] Running RL reset
+[2023-04-20 18:10:52] Running RL reset
+{'metrics/score': tensor([-634.5368], device='cuda:0'), 'metrics/Q_value': -0.032804541289806366, 'loss/Q_1': 1.3542163372039795, 'loss/Q_2': 1.4296033382415771, 'loss/policy': -0.8688174486160278, 'loss/alpha': -20.15288734436035}
+[2023-04-20 18:10:55] Running RL reset
+[2023-04-20 18:11:05] Running RL reset
+{'metrics/score': tensor([-539.8031], device='cuda:0'), 'metrics/Q_value': -0.016834288835525513, 'loss/Q_1': 1.2748706340789795, 'loss/Q_2': 1.371687889099121, 'loss/policy': -0.8935036659240723, 'loss/alpha': -20.22516632080078}
+[2023-04-20 18:11:05] Running RL reset
+[2023-04-20 18:11:09] Running RL reset
+{'metrics/score': tensor([4.0879], device='cuda:0'), 'metrics/Q_value': 0.009451834484934807, 'loss/Q_1': 1.280282974243164, 'loss/Q_2': 1.3853811025619507, 'loss/policy': -0.934297502040863, 'loss/alpha': -20.34417724609375}
+[2023-04-20 18:11:15] Running RL reset
+[2023-04-20 18:11:22] Running RL reset
+[2023-04-20 18:11:25] Running RL reset
+{'metrics/score': tensor([-85.1213], device='cuda:0'), 'metrics/Q_value': 0.035484764724969864, 'loss/Q_1': 1.2434616088867188, 'loss/Q_2': 1.337876319885254, 'loss/policy': -0.9763106107711792, 'loss/alpha': -20.47510528564453}
+[2023-04-20 18:11:25] Running RL reset
+[2023-04-20 18:11:35] Running RL reset
+{'metrics/score': tensor([-74.0899], device='cuda:0'), 'metrics/Q_value': 0.05081252008676529, 'loss/Q_1': 1.2326682806015015, 'loss/Q_2': 1.3317441940307617, 'loss/policy': -0.9949210286140442, 'loss/alpha': -20.503650665283203}
+[2023-04-20 18:11:36] Running RL reset
+[2023-04-20 18:11:45] Running RL reset
+{'metrics/score': tensor([-642.7805], device='cuda:0'), 'metrics/Q_value': 0.06858119368553162, 'loss/Q_1': 1.274822473526001, 'loss/Q_2': 1.3739275932312012, 'loss/policy': -1.018384337425232, 'loss/alpha': -20.551666259765625}
+[2023-04-20 18:11:45] Running RL reset
+[2023-04-20 18:11:47] Running RL reset
+[2023-04-20 18:11:48] Running RL reset
+{'metrics/score': tensor([232.9341], device='cuda:0'), 'metrics/Q_value': 0.09997108578681946, 'loss/Q_1': 1.2212642431259155, 'loss/Q_2': 1.3410977125167847, 'loss/policy': -1.0632696151733398, 'loss/alpha': -20.662647247314453}
+[2023-04-20 18:11:55] Running RL reset
+[2023-04-20 18:12:05] Running RL reset
+{'metrics/score': tensor([-252.4312], device='cuda:0'), 'metrics/Q_value': 0.12329821288585663, 'loss/Q_1': 1.1878046989440918, 'loss/Q_2': 1.299636721611023, 'loss/policy': -1.0931906700134277, 'loss/alpha': -20.71796417236328}
+[2023-04-20 18:12:05] Running RL reset
+[2023-04-20 18:12:15] Running RL reset
+{'metrics/score': tensor([-247.3189], device='cuda:0'), 'metrics/Q_value': 0.15496957302093506, 'loss/Q_1': 1.1044182777404785, 'loss/Q_2': 1.1841527223587036, 'loss/policy': -1.123034954071045, 'loss/alpha': -20.705326080322266}
+[2023-04-20 18:12:15] Running RL reset
+[2023-04-20 18:12:25] Running RL reset
+{'metrics/score': tensor([-127.6619], device='cuda:0'), 'metrics/Q_value': 0.1650761067867279, 'loss/Q_1': 1.1792066097259521, 'loss/Q_2': 1.2851612567901611, 'loss/policy': -1.133985996246338, 'loss/alpha': -20.71425437927246}
+[2023-04-20 18:12:25] Running RL reset
+[2023-04-20 18:12:35] Running RL reset
+{'metrics/score': tensor([-445.3475], device='cuda:0'), 'metrics/Q_value': 0.1880946159362793, 'loss/Q_1': 1.1741219758987427, 'loss/Q_2': 1.2670893669128418, 'loss/policy': -1.163603663444519, 'loss/alpha': -20.7696533203125}
+[2023-04-20 18:12:35] Running RL reset
+[2023-04-20 18:12:42] Running RL reset
+{'metrics/score': tensor([-143.9534], device='cuda:0'), 'metrics/Q_value': 0.19485622644424438, 'loss/Q_1': 1.1734461784362793, 'loss/Q_2': 1.2783756256103516, 'loss/policy': -1.187617301940918, 'loss/alpha': -20.911109924316406}
+[2023-04-20 18:12:45] Running RL reset
+[2023-04-20 18:12:46] Running RL reset
+{'metrics/score': tensor([-128.7999], device='cuda:0'), 'metrics/Q_value': 0.223134383559227, 'loss/Q_1': 1.149129867553711, 'loss/Q_2': 1.2571018934249878, 'loss/policy': -1.2029262781143188, 'loss/alpha': -20.808494567871094}
+[2023-04-20 18:12:55] Running RL reset
+[2023-04-20 18:13:05] Running RL reset
+{'metrics/score': tensor([168.9100], device='cuda:0'), 'metrics/Q_value': 0.2363414317369461, 'loss/Q_1': 1.0961946249008179, 'loss/Q_2': 1.1886848211288452, 'loss/policy': -1.221210241317749, 'loss/alpha': -20.851642608642578}
+[2023-04-20 18:13:05] Running RL reset
+[2023-04-20 18:13:16] Running RL reset
+{'metrics/score': tensor([248.4544], device='cuda:0'), 'metrics/Q_value': 0.26410114765167236, 'loss/Q_1': 1.0950464010238647, 'loss/Q_2': 1.1690425872802734, 'loss/policy': -1.2475647926330566, 'loss/alpha': -20.84242820739746}
+[2023-04-20 18:13:16] Running RL reset
+[2023-04-20 18:13:26] Running RL reset
+{'metrics/score': tensor([-191.4863], device='cuda:0'), 'metrics/Q_value': 0.2695152759552002, 'loss/Q_1': 1.19545578956604, 'loss/Q_2': 1.2858233451843262, 'loss/policy': -1.2545255422592163, 'loss/alpha': -20.857065200805664}
+[2023-04-20 18:13:26] Running RL reset
+[2023-04-20 18:13:31] Running RL reset
+[2023-04-20 18:13:35] Running RL reset
+{'metrics/score': tensor([-176.6449], device='cuda:0'), 'metrics/Q_value': 0.29427570104599, 'loss/Q_1': 1.1149424314498901, 'loss/Q_2': 1.1944940090179443, 'loss/policy': -1.2775864601135254, 'loss/alpha': -20.845470428466797}
+[2023-04-20 18:13:38] Running RL reset
+[2023-04-20 18:13:49] Running RL reset
+{'metrics/score': tensor([-191.3867], device='cuda:0'), 'metrics/Q_value': 0.3105801045894623, 'loss/Q_1': 1.0446338653564453, 'loss/Q_2': 1.1199787855148315, 'loss/policy': -1.3052022457122803, 'loss/alpha': -20.93905258178711}
+[2023-04-20 18:13:49] Running RL reset
+[2023-04-20 18:14:02] Running RL reset
+{'metrics/score': tensor([-708.6825], device='cuda:0'), 'metrics/Q_value': 0.3158126473426819, 'loss/Q_1': 1.0554488897323608, 'loss/Q_2': 1.150080680847168, 'loss/policy': -1.3138762712478638, 'loss/alpha': -20.969036102294922}
+[2023-04-20 18:14:02] Running RL reset
+[2023-04-20 18:14:13] Running RL reset
+{'metrics/score': tensor([299.2878], device='cuda:0'), 'metrics/Q_value': 0.33376941084861755, 'loss/Q_1': 1.0501441955566406, 'loss/Q_2': 1.1247048377990723, 'loss/policy': -1.3352336883544922, 'loss/alpha': -20.998695373535156}
+[2023-04-20 18:14:13] Running RL reset
+[2023-04-20 18:14:25] Running RL reset
+{'metrics/score': tensor([-535.3919], device='cuda:0'), 'metrics/Q_value': 0.33766940236091614, 'loss/Q_1': 1.068194031715393, 'loss/Q_2': 1.1851893663406372, 'loss/policy': -1.340878963470459, 'loss/alpha': -21.014976501464844}
+[2023-04-20 18:14:25] Running RL reset
+[2023-04-20 18:14:36] Running RL reset
+{'metrics/score': tensor([272.0201], device='cuda:0'), 'metrics/Q_value': 0.37267863750457764, 'loss/Q_1': 1.0970559120178223, 'loss/Q_2': 1.1839114427566528, 'loss/policy': -1.3773751258850098, 'loss/alpha': -21.0291748046875}
+[2023-04-20 18:14:36] Running RL reset
+[2023-04-20 18:14:48] Running RL reset
+{'metrics/score': tensor([157.6891], device='cuda:0'), 'metrics/Q_value': 0.38122057914733887, 'loss/Q_1': 0.9747406244277954, 'loss/Q_2': 1.0736560821533203, 'loss/policy': -1.3804311752319336, 'loss/alpha': -20.986961364746094}
+[2023-04-20 18:14:48] Running RL reset
+[2023-04-20 18:14:59] Running RL reset
+{'metrics/score': tensor([-114.1758], device='cuda:0'), 'metrics/Q_value': 0.39487630128860474, 'loss/Q_1': 1.0668668746948242, 'loss/Q_2': 1.1747910976409912, 'loss/policy': -1.3990302085876465, 'loss/alpha': -21.029129028320312}
+[2023-04-20 18:14:59] Running RL reset
+[2023-04-20 18:15:02] Running RL reset
+{'metrics/score': tensor([-227.6448], device='cuda:0'), 'metrics/Q_value': 0.39568793773651123, 'loss/Q_1': 1.047572374343872, 'loss/Q_2': 1.1258454322814941, 'loss/policy': -1.3985759019851685, 'loss/alpha': -21.021053314208984}
+[2023-04-20 18:15:11] Running RL reset
+[2023-04-20 18:15:22] Running RL reset
+{'metrics/score': tensor([-345.3848], device='cuda:0'), 'metrics/Q_value': 0.4106908142566681, 'loss/Q_1': 1.0228240489959717, 'loss/Q_2': 1.1087055206298828, 'loss/policy': -1.4182668924331665, 'loss/alpha': -21.061172485351562}
+[2023-04-20 18:15:22] Running RL reset
+[2023-04-20 18:15:33] Running RL reset
+{'metrics/score': tensor([-476.2401], device='cuda:0'), 'metrics/Q_value': 0.42155396938323975, 'loss/Q_1': 0.9949775338172913, 'loss/Q_2': 1.0943973064422607, 'loss/policy': -1.4270970821380615, 'loss/alpha': -21.046890258789062}
+[2023-04-20 18:15:33] Running RL reset
+[2023-04-20 18:15:39] Running RL reset
+{'metrics/score': tensor([44.0544], device='cuda:0'), 'metrics/Q_value': 0.4329899549484253, 'loss/Q_1': 0.9995702505111694, 'loss/Q_2': 1.0876177549362183, 'loss/policy': -1.4373515844345093, 'loss/alpha': -21.03949737548828}
+[2023-04-20 18:15:43] Running RL reset
+[2023-04-20 18:15:53] Running RL reset
+{'metrics/score': tensor([84.7367], device='cuda:0'), 'metrics/Q_value': 0.43322843313217163, 'loss/Q_1': 1.0169203281402588, 'loss/Q_2': 1.0842971801757812, 'loss/policy': -1.4391511678695679, 'loss/alpha': -21.054311752319336}
+[2023-04-20 18:15:53] Running RL reset
+[2023-04-20 18:16:04] Running RL reset
+{'metrics/score': tensor([30.0347], device='cuda:0'), 'metrics/Q_value': 0.44626882672309875, 'loss/Q_1': 1.0380675792694092, 'loss/Q_2': 1.1386473178863525, 'loss/policy': -1.4466006755828857, 'loss/alpha': -21.011199951171875}
+[2023-04-20 18:16:04] Running RL reset
+[2023-04-20 18:16:14] Running RL reset
+{'metrics/score': tensor([288.2303], device='cuda:0'), 'metrics/Q_value': 0.4517350196838379, 'loss/Q_1': 0.9822132587432861, 'loss/Q_2': 1.062082052230835, 'loss/policy': -1.464770793914795, 'loss/alpha': -21.116291046142578}
+[2023-04-20 18:16:14] Running RL reset
+[2023-04-20 18:16:25] Running RL reset
+{'metrics/score': tensor([-215.7680], device='cuda:0'), 'metrics/Q_value': 0.46895045042037964, 'loss/Q_1': 1.0133271217346191, 'loss/Q_2': 1.1316204071044922, 'loss/policy': -1.4758036136627197, 'loss/alpha': -21.068374633789062}
+[2023-04-20 18:16:25] Running RL reset
+[2023-04-20 18:16:35] Running RL reset
+{'metrics/score': tensor([-23.3304], device='cuda:0'), 'metrics/Q_value': 0.46885034441947937, 'loss/Q_1': 0.9955688714981079, 'loss/Q_2': 1.0705416202545166, 'loss/policy': -1.4828071594238281, 'loss/alpha': -21.12812042236328}
+[2023-04-20 18:16:35] Running RL reset
+[2023-04-20 18:16:45] Running RL reset
+{'metrics/score': tensor([438.7849], device='cuda:0'), 'metrics/Q_value': 0.47584983706474304, 'loss/Q_1': 0.9460765719413757, 'loss/Q_2': 1.0544103384017944, 'loss/policy': -1.487775206565857, 'loss/alpha': -21.113840103149414}
+[2023-04-20 18:16:45] Running RL reset
+[2023-04-20 18:16:49] Running RL reset
+{'metrics/score': tensor([309.5960], device='cuda:0'), 'metrics/Q_value': 0.5169702172279358, 'loss/Q_1': 1.0190110206604004, 'loss/Q_2': 1.096588373184204, 'loss/policy': -1.5213143825531006, 'loss/alpha': -21.05455780029297}
+[2023-04-20 18:16:56] Running RL reset
+[2023-04-20 18:16:58] Running RL reset
+[2023-04-20 18:17:03] Running RL reset
+{'metrics/score': tensor([132.4502], device='cuda:0'), 'metrics/Q_value': 0.5073537826538086, 'loss/Q_1': 0.9317659139633179, 'loss/Q_2': 1.0232962369918823, 'loss/policy': -1.520174503326416, 'loss/alpha': -21.125465393066406}
+[2023-04-20 18:17:06] Running RL reset
+[2023-04-20 18:17:12] Running RL reset
+{'metrics/score': tensor([438.0991], device='cuda:0'), 'metrics/Q_value': 0.527474045753479, 'loss/Q_1': 0.9486089944839478, 'loss/Q_2': 1.0645508766174316, 'loss/policy': -1.5362015962600708, 'loss/alpha': -21.094451904296875}
+[2023-04-20 18:17:16] Running RL reset
+[2023-04-20 18:17:26] Running RL reset
+{'metrics/score': tensor([312.7033], device='cuda:0'), 'metrics/Q_value': 0.5482194423675537, 'loss/Q_1': 0.9777671694755554, 'loss/Q_2': 1.1066346168518066, 'loss/policy': -1.5628266334533691, 'loss/alpha': -21.144319534301758}
+[2023-04-20 18:17:26] Running RL reset
+[2023-04-20 18:17:31] Running RL reset
+{'metrics/score': tensor([144.6148], device='cuda:0'), 'metrics/Q_value': 0.5854098200798035, 'loss/Q_1': 0.9091223478317261, 'loss/Q_2': 0.9970887303352356, 'loss/policy': -1.5996301174163818, 'loss/alpha': -21.143367767333984}
+[2023-04-20 18:17:36] Running RL reset
+[2023-04-20 18:17:47] Running RL reset
+{'metrics/score': tensor([82.1710], device='cuda:0'), 'metrics/Q_value': 0.5737079381942749, 'loss/Q_1': 0.9665204286575317, 'loss/Q_2': 1.036306381225586, 'loss/policy': -1.5878376960754395, 'loss/alpha': -21.144817352294922}
+[2023-04-20 18:17:47] Running RL reset
+[2023-04-20 18:17:57] Running RL reset
+{'metrics/score': tensor([230.0763], device='cuda:0'), 'metrics/Q_value': 0.6014065742492676, 'loss/Q_1': 0.9381760358810425, 'loss/Q_2': 1.0212538242340088, 'loss/policy': -1.6081244945526123, 'loss/alpha': -21.086849212646484}
+[2023-04-20 18:17:57] Running RL reset
+[2023-04-20 18:18:07] Running RL reset
+{'metrics/score': tensor([201.1157], device='cuda:0'), 'metrics/Q_value': 0.6182910203933716, 'loss/Q_1': 0.9417647123336792, 'loss/Q_2': 1.0234928131103516, 'loss/policy': -1.6302237510681152, 'loss/alpha': -21.131351470947266}
+[2023-04-20 18:18:07] Running RL reset
+[2023-04-20 18:18:13] Running RL reset
+{'metrics/score': tensor([261.7226], device='cuda:0'), 'metrics/Q_value': 0.6580448150634766, 'loss/Q_1': 0.8767696619033813, 'loss/Q_2': 0.9450704455375671, 'loss/policy': -1.667500615119934, 'loss/alpha': -21.113426208496094}
+[2023-04-20 18:18:17] Running RL reset
+[2023-04-20 18:18:27] Running RL reset
+{'metrics/score': tensor([-119.1377], device='cuda:0'), 'metrics/Q_value': 0.6484063267707825, 'loss/Q_1': 0.9098843336105347, 'loss/Q_2': 0.9968536496162415, 'loss/policy': -1.6510896682739258, 'loss/alpha': -21.06061363220215}
+[2023-04-20 18:18:27] Running RL reset
+[2023-04-20 18:18:37] Running RL reset
+{'metrics/score': tensor([293.4159], device='cuda:0'), 'metrics/Q_value': 0.669931173324585, 'loss/Q_1': 0.8396797776222229, 'loss/Q_2': 0.923259973526001, 'loss/policy': -1.6782965660095215, 'loss/alpha': -21.108922958374023}
+[2023-04-20 18:18:37] Running RL reset
+[2023-04-20 18:18:40] Running RL reset
+{'metrics/score': tensor([152.0145], device='cuda:0'), 'metrics/Q_value': 0.6921402215957642, 'loss/Q_1': 0.9153782725334167, 'loss/Q_2': 1.033524751663208, 'loss/policy': -1.7054837942123413, 'loss/alpha': -21.151531219482422}
+[2023-04-20 18:18:47] Running RL reset
+[2023-04-20 18:18:56] Running RL reset
+{'metrics/score': tensor([-152.0785], device='cuda:0'), 'metrics/Q_value': 0.6884755492210388, 'loss/Q_1': 0.8496973514556885, 'loss/Q_2': 0.9405912160873413, 'loss/policy': -1.6898488998413086, 'loss/alpha': -21.05647087097168}
+[2023-04-20 18:18:56] Running RL reset
+[2023-04-20 18:19:07] Running RL reset
+{'metrics/score': tensor([9.7499], device='cuda:0'), 'metrics/Q_value': 0.7088019847869873, 'loss/Q_1': 0.9169794321060181, 'loss/Q_2': 1.011035680770874, 'loss/policy': -1.715834140777588, 'loss/alpha': -21.104610443115234}
+[2023-04-20 18:19:07] Running RL reset
+[2023-04-20 18:19:14] Running RL reset
+{'metrics/score': tensor([375.1259], device='cuda:0'), 'metrics/Q_value': 0.7253944873809814, 'loss/Q_1': 0.8598920106887817, 'loss/Q_2': 0.9427880644798279, 'loss/policy': -1.7348244190216064, 'loss/alpha': -21.126264572143555}
+[2023-04-20 18:19:17] Running RL reset
+[2023-04-20 18:19:26] Running RL reset
+{'metrics/score': tensor([-56.8188], device='cuda:0'), 'metrics/Q_value': 0.7627508044242859, 'loss/Q_1': 0.9144095182418823, 'loss/Q_2': 0.9747508764266968, 'loss/policy': -1.771150827407837, 'loss/alpha': -21.120067596435547}
+[2023-04-20 18:19:26] Running RL reset
+[2023-04-20 18:19:37] Running RL reset
+{'metrics/score': tensor([307.0722], device='cuda:0'), 'metrics/Q_value': 0.7696929574012756, 'loss/Q_1': 0.8633198142051697, 'loss/Q_2': 0.9486657977104187, 'loss/policy': -1.7698431015014648, 'loss/alpha': -21.055179595947266}
+[2023-04-20 18:19:37] Running RL reset
+[2023-04-20 18:19:47] Running RL reset
+{'metrics/score': tensor([-293.3451], device='cuda:0'), 'metrics/Q_value': 0.7809430360794067, 'loss/Q_1': 0.8621880412101746, 'loss/Q_2': 0.9504382610321045, 'loss/policy': -1.7864478826522827, 'loss/alpha': -21.100872039794922}
+[2023-04-20 18:19:47] Running RL reset
+[2023-04-20 18:19:57] Running RL reset
+{'metrics/score': tensor([604.5836], device='cuda:0'), 'metrics/Q_value': 0.8038142323493958, 'loss/Q_1': 0.8689396381378174, 'loss/Q_2': 0.9205905199050903, 'loss/policy': -1.8085694313049316, 'loss/alpha': -21.096942901611328}
+[2023-04-20 18:19:57] Running RL reset
+[2023-04-20 18:20:01] Running RL reset
+{'metrics/score': tensor([439.8505], device='cuda:0'), 'metrics/Q_value': 0.8192174434661865, 'loss/Q_1': 0.8956623077392578, 'loss/Q_2': 0.970099687576294, 'loss/policy': -1.822047233581543, 'loss/alpha': -21.083446502685547}
+[2023-04-20 18:20:07] Running RL reset
+[2023-04-20 18:20:10] Running RL reset
+{'metrics/score': tensor([-71.1216], device='cuda:0'), 'metrics/Q_value': 0.7959682941436768, 'loss/Q_1': 0.8733624219894409, 'loss/Q_2': 0.9669783711433411, 'loss/policy': -1.7967770099639893, 'loss/alpha': -21.069168090820312}
+[2023-04-20 18:20:17] Running RL reset
+[2023-04-20 18:20:18] Running RL reset
+{'metrics/score': tensor([356.5610], device='cuda:0'), 'metrics/Q_value': 0.8152859210968018, 'loss/Q_1': 0.8890995383262634, 'loss/Q_2': 0.9735304713249207, 'loss/policy': -1.8256332874298096, 'loss/alpha': -21.148927688598633}
+[2023-04-20 18:20:27] Running RL reset
+[2023-04-20 18:20:37] Running RL reset
+{'metrics/score': tensor([176.2341], device='cuda:0'), 'metrics/Q_value': 0.8228006362915039, 'loss/Q_1': 0.8369897603988647, 'loss/Q_2': 0.9131896495819092, 'loss/policy': -1.826751708984375, 'loss/alpha': -21.09905242919922}
+[2023-04-20 18:20:37] Running RL reset
+[2023-04-20 18:20:46] Running RL reset
+{'metrics/score': tensor([155.8487], device='cuda:0'), 'metrics/Q_value': 0.843431830406189, 'loss/Q_1': 0.8506122827529907, 'loss/Q_2': 0.9237515926361084, 'loss/policy': -1.8456835746765137, 'loss/alpha': -21.087387084960938}
+[2023-04-20 18:20:47] Running RL reset
+[2023-04-20 18:20:55] Running RL reset
+{'metrics/score': tensor([196.3132], device='cuda:0'), 'metrics/Q_value': 0.8433519601821899, 'loss/Q_1': 0.8276109099388123, 'loss/Q_2': 0.910510778427124, 'loss/policy': -1.8429021835327148, 'loss/alpha': -21.067554473876953}
+[2023-04-20 18:20:56] Running RL reset
+[2023-04-20 18:21:04] Running RL reset
+{'metrics/score': tensor([73.3792], device='cuda:0'), 'metrics/Q_value': 0.8391585350036621, 'loss/Q_1': 0.8527988791465759, 'loss/Q_2': 0.9149842262268066, 'loss/policy': -1.838492751121521, 'loss/alpha': -21.067951202392578}
+[2023-04-20 18:21:06] Running RL reset
+[2023-04-20 18:21:12] Running RL reset
+{'metrics/score': tensor([205.8049], device='cuda:0'), 'metrics/Q_value': 0.8590013980865479, 'loss/Q_1': 0.8698889017105103, 'loss/Q_2': 0.9581689834594727, 'loss/policy': -1.8592864274978638, 'loss/alpha': -21.077848434448242}
+[2023-04-20 18:21:16] Running RL reset
+[2023-04-20 18:21:25] Running RL reset
+{'metrics/score': tensor([465.9341], device='cuda:0'), 'metrics/Q_value': 0.8835635185241699, 'loss/Q_1': 0.7915325164794922, 'loss/Q_2': 0.8398195505142212, 'loss/policy': -1.8826625347137451, 'loss/alpha': -21.070343017578125}
+[2023-04-20 18:21:25] Running RL reset
+[2023-04-20 18:21:35] Running RL reset
+{'metrics/score': tensor([270.8180], device='cuda:0'), 'metrics/Q_value': 0.8924872875213623, 'loss/Q_1': 0.789064884185791, 'loss/Q_2': 0.869641125202179, 'loss/policy': -1.8884599208831787, 'loss/alpha': -21.04703140258789}
+[2023-04-20 18:21:35] Running RL reset
+[2023-04-20 18:21:38] Running RL reset
+{'metrics/score': tensor([422.2924], device='cuda:0'), 'metrics/Q_value': 0.9137568473815918, 'loss/Q_1': 0.8133929371833801, 'loss/Q_2': 0.8991429805755615, 'loss/policy': -1.9108142852783203, 'loss/alpha': -21.058015823364258}
+[2023-04-20 18:21:46] Running RL reset
+[2023-04-20 18:21:55] Running RL reset
+{'metrics/score': tensor([195.8518], device='cuda:0'), 'metrics/Q_value': 0.9165952205657959, 'loss/Q_1': 0.8260420560836792, 'loss/Q_2': 0.89037024974823, 'loss/policy': -1.9169389009475708, 'loss/alpha': -21.086938858032227}
+[2023-04-20 18:21:55] Running RL reset
+[2023-04-20 18:22:05] Running RL reset
+{'metrics/score': tensor([434.7007], device='cuda:0'), 'metrics/Q_value': 0.9470263719558716, 'loss/Q_1': 0.8497823476791382, 'loss/Q_2': 0.9313056468963623, 'loss/policy': -1.941041350364685, 'loss/alpha': -21.037521362304688}
+[2023-04-20 18:22:05] Running RL reset
+[2023-04-20 18:22:15] Running RL reset
+{'metrics/score': tensor([21.1340], device='cuda:0'), 'metrics/Q_value': 0.9530518054962158, 'loss/Q_1': 0.8171384334564209, 'loss/Q_2': 0.8866997957229614, 'loss/policy': -1.9451143741607666, 'loss/alpha': -21.02375030517578}
+[2023-04-20 18:22:15] Running RL reset
+[2023-04-20 18:22:20] Running RL reset
+[2023-04-20 18:22:23] Running RL reset
+{'metrics/score': tensor([438.3084], device='cuda:0'), 'metrics/Q_value': 0.9886536598205566, 'loss/Q_1': 0.7884337306022644, 'loss/Q_2': 0.8487082719802856, 'loss/policy': -1.9721789360046387, 'loss/alpha': -20.956298828125}
+[2023-04-20 18:22:25] Running RL reset
+[2023-04-20 18:22:26] Running RL reset
+{'metrics/score': tensor([57.0778], device='cuda:0'), 'metrics/Q_value': 0.9897146224975586, 'loss/Q_1': 0.7923370599746704, 'loss/Q_2': 0.8828526139259338, 'loss/policy': -1.9832063913345337, 'loss/alpha': -21.03968048095703}
+[2023-04-20 18:22:35] Running RL reset
+[2023-04-20 18:22:37] Running RL reset
+{'metrics/score': tensor([347.5859], device='cuda:0'), 'metrics/Q_value': 1.0051565170288086, 'loss/Q_1': 0.7899367809295654, 'loss/Q_2': 0.8432915210723877, 'loss/policy': -1.996201515197754, 'loss/alpha': -21.021867752075195}
+[2023-04-20 18:22:45] Running RL reset
+[2023-04-20 18:22:49] Running RL reset
+{'metrics/score': tensor([191.1620], device='cuda:0'), 'metrics/Q_value': 1.01414155960083, 'loss/Q_1': 0.7713967561721802, 'loss/Q_2': 0.8379781246185303, 'loss/policy': -2.0009918212890625, 'loss/alpha': -20.989791870117188}
+[2023-04-20 18:22:55] Running RL reset
+[2023-04-20 18:23:00] Running RL reset
+{'metrics/score': tensor([387.9337], device='cuda:0'), 'metrics/Q_value': 1.0221483707427979, 'loss/Q_1': 0.8131355047225952, 'loss/Q_2': 0.895020604133606, 'loss/policy': -2.008185863494873, 'loss/alpha': -20.985294342041016}
+[2023-04-20 18:23:05] Running RL reset
+[2023-04-20 18:23:14] Running RL reset
+{'metrics/score': tensor([344.6409], device='cuda:0'), 'metrics/Q_value': 1.064307451248169, 'loss/Q_1': 0.7445054054260254, 'loss/Q_2': 0.797646164894104, 'loss/policy': -2.0363731384277344, 'loss/alpha': -20.873435974121094}
+[2023-04-20 18:23:15] Running RL reset
+[2023-04-20 18:23:25] Running RL reset
+{'metrics/score': tensor([137.6643], device='cuda:0'), 'metrics/Q_value': 1.0536376237869263, 'loss/Q_1': 0.7675135731697083, 'loss/Q_2': 0.8450561761856079, 'loss/policy': -2.040048837661743, 'loss/alpha': -20.992595672607422}
+[2023-04-20 18:23:25] Running RL reset
+[2023-04-20 18:23:26] Running RL reset
+[2023-04-20 18:23:28] Running RL reset
+{'metrics/score': tensor([337.1952], device='cuda:0'), 'metrics/Q_value': 1.0626713037490845, 'loss/Q_1': 0.7731815576553345, 'loss/Q_2': 0.8316456079483032, 'loss/policy': -2.0488650798797607, 'loss/alpha': -20.992944717407227}
+[2023-04-20 18:23:34] Running RL reset
+[2023-04-20 18:23:44] Running RL reset
+{'metrics/score': tensor([370.1622], device='cuda:0'), 'metrics/Q_value': 1.0606671571731567, 'loss/Q_1': 0.8056868314743042, 'loss/Q_2': 0.8585091233253479, 'loss/policy': -2.042872428894043, 'loss/alpha': -20.96251678466797}
+[2023-04-20 18:23:44] Running RL reset
+[2023-04-20 18:23:54] Running RL reset
+{'metrics/score': tensor([315.6632], device='cuda:0'), 'metrics/Q_value': 1.0915589332580566, 'loss/Q_1': 0.7761087417602539, 'loss/Q_2': 0.842700719833374, 'loss/policy': -2.0706470012664795, 'loss/alpha': -20.939186096191406}
+[2023-04-20 18:23:54] Running RL reset
+[2023-04-20 18:24:02] Running RL reset
+{'metrics/score': tensor([253.8876], device='cuda:0'), 'metrics/Q_value': 1.104444980621338, 'loss/Q_1': 0.7096607089042664, 'loss/Q_2': 0.754828929901123, 'loss/policy': -2.083030939102173, 'loss/alpha': -20.93720245361328}
+[2023-04-20 18:24:04] Running RL reset
+[2023-04-20 18:24:14] Running RL reset
+{'metrics/score': tensor([523.5637], device='cuda:0'), 'metrics/Q_value': 1.1006022691726685, 'loss/Q_1': 0.7702840566635132, 'loss/Q_2': 0.8057228326797485, 'loss/policy': -2.0835232734680176, 'loss/alpha': -20.974716186523438}
+[2023-04-20 18:24:14] Running RL reset
+[2023-04-20 18:24:24] Running RL reset
+{'metrics/score': tensor([312.7374], device='cuda:0'), 'metrics/Q_value': 1.1241698265075684, 'loss/Q_1': 0.7532655000686646, 'loss/Q_2': 0.792687177658081, 'loss/policy': -2.095432758331299, 'loss/alpha': -20.881614685058594}
+[2023-04-20 18:24:24] Running RL reset
+[2023-04-20 18:24:34] Running RL reset
+{'metrics/score': tensor([336.8299], device='cuda:0'), 'metrics/Q_value': 1.1298470497131348, 'loss/Q_1': 0.7490441203117371, 'loss/Q_2': 0.8060247898101807, 'loss/policy': -2.100468158721924, 'loss/alpha': -20.87847137451172}
+[2023-04-20 18:24:34] Running RL reset
+[2023-04-20 18:24:43] Running RL reset
+{'metrics/score': tensor([444.0480], device='cuda:0'), 'metrics/Q_value': 1.1488823890686035, 'loss/Q_1': 0.7386312484741211, 'loss/Q_2': 0.8246970176696777, 'loss/policy': -2.1210148334503174, 'loss/alpha': -20.89291763305664}
+[2023-04-20 18:24:43] Running RL reset
+[2023-04-20 18:24:49] Running RL reset
+[2023-04-20 18:24:51] Running RL reset
+[2023-04-20 18:24:53] Running RL reset
+{'metrics/score': tensor([490.2140], device='cuda:0'), 'metrics/Q_value': 1.164750337600708, 'loss/Q_1': 0.6950366497039795, 'loss/Q_2': 0.7756996750831604, 'loss/policy': -2.1444878578186035, 'loss/alpha': -20.957164764404297}
+[2023-04-20 18:24:53] Running RL reset
+[2023-04-20 18:25:03] Running RL reset
+{'metrics/score': tensor([537.8760], device='cuda:0'), 'metrics/Q_value': 1.1867384910583496, 'loss/Q_1': 0.7279675602912903, 'loss/Q_2': 0.7892641425132751, 'loss/policy': -2.1600306034088135, 'loss/alpha': -20.906597137451172}
+[2023-04-20 18:25:03] Running RL reset
+[2023-04-20 18:25:12] Running RL reset
+{'metrics/score': tensor([185.6218], device='cuda:0'), 'metrics/Q_value': 1.2035653591156006, 'loss/Q_1': 0.7035696506500244, 'loss/Q_2': 0.7624523639678955, 'loss/policy': -2.1821274757385254, 'loss/alpha': -20.951778411865234}
+[2023-04-20 18:25:13] Running RL reset
+[2023-04-20 18:25:23] Running RL reset
+{'metrics/score': tensor([456.3944], device='cuda:0'), 'metrics/Q_value': 1.2287824153900146, 'loss/Q_1': 0.7602488994598389, 'loss/Q_2': 0.8222779035568237, 'loss/policy': -2.1931610107421875, 'loss/alpha': -20.837926864624023}
+[2023-04-20 18:25:23] Running RL reset
+[2023-04-20 18:25:33] Running RL reset
+{'metrics/score': tensor([401.0638], device='cuda:0'), 'metrics/Q_value': 1.2403732538223267, 'loss/Q_1': 0.7486139535903931, 'loss/Q_2': 0.7984700202941895, 'loss/policy': -2.2110252380371094, 'loss/alpha': -20.891311645507812}
+[2023-04-20 18:25:33] Running RL reset
+[2023-04-20 18:25:43] Running RL reset
+{'metrics/score': tensor([551.0814], device='cuda:0'), 'metrics/Q_value': 1.2764720916748047, 'loss/Q_1': 0.6824613213539124, 'loss/Q_2': 0.7326863408088684, 'loss/policy': -2.2413876056671143, 'loss/alpha': -20.846492767333984}
+[2023-04-20 18:25:43] Running RL reset
+[2023-04-20 18:25:53] Running RL reset
+{'metrics/score': tensor([527.7209], device='cuda:0'), 'metrics/Q_value': 1.2802248001098633, 'loss/Q_1': 0.7001743316650391, 'loss/Q_2': 0.746253490447998, 'loss/policy': -2.2473506927490234, 'loss/alpha': -20.86665916442871}
+[2023-04-20 18:25:53] Running RL reset
+[2023-04-20 18:26:03] Running RL reset
+{'metrics/score': tensor([576.4484], device='cuda:0'), 'metrics/Q_value': 1.2875792980194092, 'loss/Q_1': 0.7049394845962524, 'loss/Q_2': 0.7718106508255005, 'loss/policy': -2.2552006244659424, 'loss/alpha': -20.872798919677734}
+[2023-04-20 18:26:03] Running RL reset
+[2023-04-20 18:26:12] Running RL reset
+{'metrics/score': tensor([531.9185], device='cuda:0'), 'metrics/Q_value': 1.3387677669525146, 'loss/Q_1': 0.7166315317153931, 'loss/Q_2': 0.7704377174377441, 'loss/policy': -2.2962419986724854, 'loss/alpha': -20.791868209838867}
+[2023-04-20 18:26:12] Running RL reset
+[2023-04-20 18:26:22] Running RL reset
+{'metrics/score': tensor([57.5080], device='cuda:0'), 'metrics/Q_value': 1.3194040060043335, 'loss/Q_1': 0.7120260000228882, 'loss/Q_2': 0.7668983936309814, 'loss/policy': -2.284637928009033, 'loss/alpha': -20.857444763183594}
+[2023-04-20 18:26:22] Running RL reset
+[2023-04-20 18:26:32] Running RL reset
+{'metrics/score': tensor([395.6637], device='cuda:0'), 'metrics/Q_value': 1.3546926975250244, 'loss/Q_1': 0.7465254664421082, 'loss/Q_2': 0.8076286911964417, 'loss/policy': -2.3216519355773926, 'loss/alpha': -20.87364959716797}
+[2023-04-20 18:26:32] Running RL reset
+[2023-04-20 18:26:42] Running RL reset
+{'metrics/score': tensor([273.5287], device='cuda:0'), 'metrics/Q_value': 1.3385140895843506, 'loss/Q_1': 0.7178574800491333, 'loss/Q_2': 0.7659939527511597, 'loss/policy': -2.296604871749878, 'loss/alpha': -20.803138732910156}
+[2023-04-20 18:26:42] Running RL reset
+[2023-04-20 18:26:52] Running RL reset
+{'metrics/score': tensor([643.7513], device='cuda:0'), 'metrics/Q_value': 1.3578524589538574, 'loss/Q_1': 0.7060418725013733, 'loss/Q_2': 0.7564842700958252, 'loss/policy': -2.315356731414795, 'loss/alpha': -20.80040740966797}
+[2023-04-20 18:26:52] Running RL reset
+[2023-04-20 18:27:03] Running RL reset
+{'metrics/score': tensor([-32.6858], device='cuda:0'), 'metrics/Q_value': 1.3468761444091797, 'loss/Q_1': 0.6894127130508423, 'loss/Q_2': 0.7446764707565308, 'loss/policy': -2.2997047901153564, 'loss/alpha': -20.764196395874023}
+[2023-04-20 18:27:03] Running RL reset
+[2023-04-20 18:27:12] Running RL reset
+{'metrics/score': tensor([51.2988], device='cuda:0'), 'metrics/Q_value': 1.395403265953064, 'loss/Q_1': 0.6520164012908936, 'loss/Q_2': 0.6918671131134033, 'loss/policy': -2.3468828201293945, 'loss/alpha': -20.75520896911621}
+[2023-04-20 18:27:13] Running RL reset
+[2023-04-20 18:27:23] Running RL reset
+{'metrics/score': tensor([364.1654], device='cuda:0'), 'metrics/Q_value': 1.3650481700897217, 'loss/Q_1': 0.7027988433837891, 'loss/Q_2': 0.7391189336776733, 'loss/policy': -2.316923141479492, 'loss/alpha': -20.760509490966797}
+[2023-04-20 18:27:23] Running RL reset
+[2023-04-20 18:27:32] Running RL reset
+{'metrics/score': tensor([613.6079], device='cuda:0'), 'metrics/Q_value': 1.3530528545379639, 'loss/Q_1': 0.6621583104133606, 'loss/Q_2': 0.7101067304611206, 'loss/policy': -2.308152198791504, 'loss/alpha': -20.788991928100586}
+[2023-04-20 18:27:32] Running RL reset
+[2023-04-20 18:27:42] Running RL reset
+{'metrics/score': tensor([184.1689], device='cuda:0'), 'metrics/Q_value': 1.4114553928375244, 'loss/Q_1': 0.6608834266662598, 'loss/Q_2': 0.705876350402832, 'loss/policy': -2.358868360519409, 'loss/alpha': -20.728073120117188}
+[2023-04-20 18:27:42] Running RL reset
+[2023-04-20 18:27:52] Running RL reset
+{'metrics/score': tensor([558.2899], device='cuda:0'), 'metrics/Q_value': 1.4046056270599365, 'loss/Q_1': 0.6568624973297119, 'loss/Q_2': 0.7205037474632263, 'loss/policy': -2.3510799407958984, 'loss/alpha': -20.722434997558594}
+[2023-04-20 18:27:52] Running RL reset
+[2023-04-20 18:28:02] Running RL reset
+{'metrics/score': tensor([497.2494], device='cuda:0'), 'metrics/Q_value': 1.4207067489624023, 'loss/Q_1': 0.6756584644317627, 'loss/Q_2': 0.729619026184082, 'loss/policy': -2.3741507530212402, 'loss/alpha': -20.7816162109375}
+[2023-04-20 18:28:02] Running RL reset
+[2023-04-20 18:28:06] Running RL reset
+[2023-04-20 18:28:08] Running RL reset
+{'metrics/score': tensor([512.0900], device='cuda:0'), 'metrics/Q_value': 1.4868991374969482, 'loss/Q_1': 0.6625773906707764, 'loss/Q_2': 0.70234215259552, 'loss/policy': -2.425990343093872, 'loss/alpha': -20.666011810302734}
+[2023-04-20 18:28:12] Running RL reset
+[2023-04-20 18:28:17] Running RL reset
+{'metrics/score': tensor([498.4742], device='cuda:0'), 'metrics/Q_value': 1.4518758058547974, 'loss/Q_1': 0.6727285385131836, 'loss/Q_2': 0.7138510942459106, 'loss/policy': -2.3954529762268066, 'loss/alpha': -20.704837799072266}
+[2023-04-20 18:28:22] Running RL reset

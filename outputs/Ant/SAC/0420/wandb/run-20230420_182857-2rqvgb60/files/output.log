@@ -1,0 +1,18 @@
+main.py:84: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:230.)
+  next_state, reward, terminal, _ = env.step(torch.tensor([action], dtype=torch.float))
+-----------------
+----Main Loop----
+[2023-04-20 18:28:59] Running RL reset
+/home/kwon/rl_ws/isaac/utils.py:19: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  self.buffer.append([torch.tensor(state.reshape(1, -1), dtype=torch.float),
+/home/kwon/rl_ws/isaac/utils.py:22: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  torch.tensor(next_state.reshape(1, -1), dtype=torch.float),
+[2023-04-20 18:29:33] Running RL reset
+{'metrics/score': tensor([618.0039], device='cuda:0'), 'metrics/Q_value': 2.178483009338379, 'loss/Q_1': 2.5408856868743896, 'loss/Q_2': 2.7602427005767822, 'loss/policy': -3.1589529514312744, 'loss/alpha': -20.76552963256836}
+[2023-04-20 18:29:33] Running RL reset
+[2023-04-20 18:29:44] Running RL reset
+{'metrics/score': tensor([724.9651], device='cuda:0'), 'metrics/Q_value': 2.305402994155884, 'loss/Q_1': 2.4713315963745117, 'loss/Q_2': 2.6961045265197754, 'loss/policy': -3.2875030040740967, 'loss/alpha': -20.78072738647461}
+[2023-04-20 18:30:06] Running RL reset
+[2023-04-20 18:30:22] Running RL reset
+{'metrics/score': tensor([390.2433], device='cuda:0'), 'metrics/Q_value': 2.3039674758911133, 'loss/Q_1': 1.9918292760849, 'loss/Q_2': 2.21134090423584, 'loss/policy': -3.2828962802886963, 'loss/alpha': -20.757278442382812}
+[2023-04-20 18:30:37] Running RL reset

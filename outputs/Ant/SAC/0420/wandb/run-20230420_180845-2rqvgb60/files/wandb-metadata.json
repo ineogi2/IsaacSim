@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.15.0-67-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-04-20T09:08:47.353208",
+    "startedAt": "2023-04-20T09:08:45.883886",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "wandb=True",
+        "render=False"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "git": {
+        "remote": "https://github.com/ineogi2/IsaacSim.git",
+        "commit": "191a0b76899bf83c7dbb2c2e704d7973add7a8ad"
+    },
+    "email": "ineogi2@gmail.com",
+    "root": "/home/kwon/rl_ws/isaac",
+    "host": "kwon-linux",
+    "username": "kwon",
+    "executable": "/home/kwon/.local/share/ov/pkg/isaac_sim-2022.2.1/kit/python/bin/python3"
+}
