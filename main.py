@@ -100,6 +100,7 @@ def train(cfg: DictConfig):
             # save model
             if epoch % cfg.training.save_frequency == 0:
                 agent.save()
+                print('[success] save.')
 
     env._simulation_app.close()
 

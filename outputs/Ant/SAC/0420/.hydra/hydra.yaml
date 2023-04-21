@@ -94,11 +94,12 @@ hydra:
   overrides:
     hydra: []
     task:
-    - wandb=True
-    - render=True
+    - model_num=0420
+    - wandb=False
+    - render=False
   job:
     name: main
-    override_dirname: render=True,wandb=True
+    override_dirname: model_num=0420,render=False,wandb=False
     id: ???
     num: ???
     config_name: config

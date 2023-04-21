@@ -11,7 +11,6 @@ class SAC(nn.Module):
     def __init__(self, env, device, cfg):
         super().__init__()
         self.state_size = env.observation_space.shape[0]
-        # self.state_size = 1540
         self.action_size = env.action_space.shape[0]
         self.gamma = cfg.training.gamma
         self.dir = cfg.training.save_dir
@@ -26,8 +25,8 @@ class SAC(nn.Module):
         self.q_2_target = Q_Network(self.state_size, self.action_size, cfg.model.hidden_sizes).to(device)
 
         # for tuning alpha
-        self.target_entropy = -torch.prod(torch.Tensor(env.action_space.shape).to(self.device)).item()
-        self.log_alpha = torch.tensor(np.log(cfg.model.alpha), requires_grad=True, device=self.device)
+        self.target_entropy = -torch.prod(torch.Tensor(env.action_space.shape).to(device)).item()
+        self.log_alpha = torch.tensor(np.log(cfg.model.alpha), requires_grad=True, device=device)
 
         self.actor_optimizer = torch.optim.Adam(self.actor.parameters(), lr=cfg.training.learning_rate)
         self.q_optimizer = torch.optim.Adam(list(self.q_1.parameters())+list(self.q_2.parameters()), lr=cfg.training.learning_rate)
@@ -109,6 +108,7 @@ class SAC(nn.Module):
             'q_optimizer' : self.q_optimizer.state_dict(),
             'log_alpha_optimizer' : self.log_alpha_optimizer.state_dict()
             }, f'{self.dir}/agent')
+        torch.save(self.log_alpha, f'{self.dir}/log_alpha.pt')
 
     def load(self):
         if os.path.isdir(f'{self.dir}'):
@@ -120,6 +120,7 @@ class SAC(nn.Module):
                 self.actor_optimizer.load_state_dict(checkpoint['actor_optimizer'])
                 self.q_optimizer.load_state_dict(checkpoint['q_optimizer'])
                 self.log_alpha_optimizer.load_state_dict(checkpoint['log_alpha_optimizer'])
+                self.log_alpha = torch.load(f'{self.dir}/log_alpha.pt')
                 print('[load] Agent')
             else:
                 print('[new] Agent')

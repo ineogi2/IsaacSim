@@ -158,12 +158,12 @@ num_threads: 4
 solver_type: 1
 test: false
 checkpoint: ''
-render: true
+render: false
 headless: ''
 enable_livestream: false
 mt_timeout: 30
 algorithm: SAC
-model_num: ${now:%m%d}
+model_num: '0420'
 model:
   hidden_sizes:
   - 256
@@ -176,7 +176,7 @@ training:
   learning_rate: 0.0001
   gamma: 0.99
   batch_size: 2048
-  save_frequency: 3
+  save_frequency: 1
   save_dir: /home/kwon/rl_ws/isaac/outputs/${task_name}/${algorithm}/${model_num}
-wandb: true
+wandb: false
 board: false

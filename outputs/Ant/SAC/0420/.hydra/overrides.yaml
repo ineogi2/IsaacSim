@@ -1,2 +1,3 @@
-- wandb=True
-- render=True
+- model_num=0420
+- wandb=False
+- render=False

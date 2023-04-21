@@ -33,11 +33,6 @@ class Actor(nn.Module):
             (action_space.high - action_space.low) / 2.)
         self.action_bias = torch.FloatTensor(
             (action_space.high + action_space.low) / 2.)
-            
-        # tuning alpha
-        self.target_entropy = -torch.prod(torch.Tensor(action_space.shape).to(self.device)).item()
-        self.log_alpha = torch.zeros(1, requires_grad=True, device=self.device)
-
 
     def forward(self, x):
         x = self.act_fn(self.fc1(x))
